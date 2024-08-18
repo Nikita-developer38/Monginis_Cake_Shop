@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.logo{
+    width: 150px;
+    height: 36px;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width:100%;
+    height: 60px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.topImage{
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    object-fit: cover;
+}
+.heading1{
+    color:
+#ec268f;
+ margin-top:2px;
+
+}
+.heading{
+    margin-bottom:2px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.orderImage{
+    width: 100%;
+    height: 100%;
+   
+    object-fit: cover;
+}
+.orderImage1{
+    width: 100%;
+    height: 100%;
+   
+    object-fit: cover;
+}
+.board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     padding:10px;
+    padding-top:20px;
+}
+.orderButton{
+    background-color: #ec268f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+ font-size: 14px;
+    font-weight: 700;
+
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    background-color: 
+#e4e0f4;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.shopHeading{
+ text-wrap: wrap;
+    display: flex;
+    text-align: center;
+
+}
+.head{
+    color: 
+#ec268f;
+}
+
+.Bcake{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin: 10px;
+    padding:10px;
+    border-radius: 8px;
+
+}
+
+.shopBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.surprise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.shopImage{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.view{
+    background-color: #ec268f;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    border-radius: 5px;
+    font-size: 14px;
+    justify-content: right;
+    align-items: flex-end;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.birth{
+    font-size: 19px;
+    text-decoration: solid;
+}
+.by{
+    font-size: 35px;
+    font-weight: 700;
+    padding:10px;
+    justify-content: left;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding-top:50px;
+    width: 100%;
+   flex-wrap: wrap;
+    padding-bottom: 50px;;
+}
+.card1{
+    display: flex;
+    background-color: #e4e0f4;
+    flex-direction: column;
+    width: 100%;
+    padding-top:50px;
+      flex-wrap: wrap;
+    padding-bottom: 50px;;
+}
+.cakeImages{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 5px;;
+    margin:5px;
+    
+}
+.circle{
+    border-radius: 50%;
+   margin: 2px;
+}
+
+.name{
+font-size: 14px;
+    font-weight: 400;
+    
+    text-align: center;
+    justify-content: center;
+    text-wrap: nowrap;
+    height: 50px;
+    padding: 10px;
+}
+
+.pink{
+    background-color: #e4569e;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 28px;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    font-weight: 600;
+}
+.us{
+  
+    justify-content: center;
+    align-items: center;
+  color: #ec268f;
+    
+}
+.about{
+    display: flex;
+    justify-content: left;
+    align-items:start;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e4e0f4;
+}
+.deal{
+    color:#ec268f;
+}
+.sweet{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: row;
+
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.newsletter{
+    display: flex;
+    justify-content: start;
+    align-items:start;
+    flex-direction: column;
+font-weight: 100;
+    padding-bottom: 30px;
+    background-color: #e4e0f4;
+}
+.email{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.emailAddress{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 212%;
+
+}
+.subscribe{
+        background-color: #20134b;
+    color: white;
+    padding: 12px 57px;
+    margin-top: 20px;
+    border: none;
+
+}
+.speciality{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.our{
+    font-size: 28px;
+    font-weight: 600;
+}
+.spec{
+    color: #ec268f;
+}
+.info{
+    display:flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.details{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.detailImg{
+    width: 100%;
+    height: 100%;
+   justify-content: start;
+}
+.ab{
+    display: flex;
+    text-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.variety{
+    background-color: 
+#f0f2f3;
+padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.most{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    text-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #7a7a7a;
+}
+.D3{
+color: 
+#7a7a7a;
+    font-weight: bold;
+    text-wrap:nowrap;
+}
+.icon{
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 30px;
+}
+.term{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.monginis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    flex-direction: row;
+}
+.nn{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding: 3px;
+}
+.list{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+li{
+    list-style: none;
+    margin-left: 2px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    padding-bottom: 60px;
+    
+}
+
+@media (max-width: 768px) {
+    .cakeImages {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .headerBoard{
+       
+        flex-direction: column;
+        
+    }
+}
+@media(max-width:1326px){
+    .headerBoard{
+       
+        flex-direction: row;
+        
+        
+
+    }
+    .board{
+       
+        object-fit: cover;
+    }
+    
+    .orderImage1{
+    /* width: 50%;
+    height: 40%; */
+   
+    object-fit: cover;
+}
+    .shopBoard{
+        display: flex;
+        flex-direction: row;
+    }
+}
