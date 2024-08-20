@@ -198,6 +198,132 @@ font-size:32px;
     padding-bottom: 40px;
    
 }
+.iso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-weight: 400;
+    color: gray;
+   
+}
+.food-container{
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.food{
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ec268f;
+}
+.action{
+     display: flex;
+    justify-content:start;
+    align-items: start;
+    flex-direction: column;
+    text-align: justify;
+    padding-bottom: 20px;
+    font-size: 14px;
+  
+}
+.moral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ec268f;
+}
+.icon{
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 30px;
+}
+.monginis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    flex-direction: row;
+}
+
+.footer{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+    
+}
+.term{
+       display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: start;
+    flex-direction: row;
+    width: 100%;
+    margin: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.nn{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding: 3px;
+}
+.contact1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.contact2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.contact3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
 @media (max-width: 768px) {
     .list{
         display: none;

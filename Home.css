@@ -369,18 +369,65 @@ color:
 }
 .icon{
 
-    padding-top: 30px;
+   padding-top: 30px;
     padding-bottom: 20px;
     margin: 30px;
 }
-.term{
+
+.contact1{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.contact2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.contact3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.term{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: start;
     flex-direction: row;
+    width: 100%;
+    margin: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
+
 }
+
 .monginis{
     display: flex;
     justify-content: center;
@@ -425,12 +472,11 @@ a{
     color: black;
 }
 .footer{
-    display: flex;
-    justify-content: center;
+  display: flex;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-    
-    padding-bottom: 60px;
+
     
 }
 
