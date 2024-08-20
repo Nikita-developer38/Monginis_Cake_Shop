@@ -162,8 +162,8 @@ font-size:32px;
 .core-text{
     display: flex;
     justify-content: center;
+    text-align: justify;
     align-items: center;
-     text-align: justify;
     flex-direction: column;
     padding-bottom: 40px;
     margin: 40px;
