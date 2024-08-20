@@ -163,6 +163,7 @@ font-size:32px;
     display: flex;
     justify-content: center;
     align-items: center;
+     text-align: justify;
     flex-direction: column;
     padding-bottom: 40px;
     margin: 40px;
