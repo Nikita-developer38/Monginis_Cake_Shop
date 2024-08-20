@@ -73,7 +73,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
      padding:10px;
     padding-top:20px;
 }
@@ -167,6 +167,7 @@ body{
     font-weight: 700;
     padding:10px;
     justify-content: left;
+        margin-left: 50px;
 }
 .card{
     display: flex;
@@ -187,7 +188,7 @@ body{
 }
 .cakeImages{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
     padding: 5px;;
     margin:5px;
@@ -200,7 +201,7 @@ body{
 
 .name{
 font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     
     text-align: center;
     justify-content: center;
@@ -221,7 +222,14 @@ font-size: 14px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width:100%;
 
+
+}
+.cake-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .client{
     display: flex;
@@ -368,10 +376,10 @@ color:
     text-wrap:nowrap;
 }
 .icon{
-
+margin-left: 20px;
+margin-right: 20px;
    padding-top: 30px;
-    padding-bottom: 20px;
-    margin: 30px;
+    box-shadow: 0px 0px 0px 0px;
 }
 
 .contact1{
@@ -422,9 +430,7 @@ color:
     align-items: start;
     flex-direction: row;
     width: 100%;
-    margin: 40px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    
 
 }
 
@@ -479,13 +485,20 @@ a{
 
     
 }
+.purple-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #e4e0f4;
+   
+}
 
 @media (max-width: 768px) {
     .cakeImages {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
     /* .headerBoard{
        
@@ -499,7 +512,7 @@ a{
         display: none;
      }
 }
-@media(min-width:1326px){
+@media(max-width:1326px){
    
     .board{
        justify-content: center;

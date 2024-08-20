@@ -248,8 +248,7 @@ font-size:32px;
 .icon{
 
     padding-top: 30px;
-    padding-bottom: 20px;
-    margin: 30px;
+    
 }
 .monginis{
     display: flex;
@@ -274,9 +273,7 @@ font-size:32px;
     align-items: start;
     flex-direction: row;
     width: 100%;
-    margin: 40px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+   
 
 }
 .nn{

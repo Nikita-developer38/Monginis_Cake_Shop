@@ -111,6 +111,9 @@ li{
    width:100%
    
 }
+.cake-img{
+    object-fit: cover;
+}
 .pic{
     object-fit: cover;
 }
