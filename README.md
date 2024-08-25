@@ -55,6 +55,6 @@ Netlify will automatically build and deploy your site.
 
 ## Screenshots
 
-./homepage.png
+/homepage.png
 _Screenshot of the Monginis Cake Shop homepage._
 
